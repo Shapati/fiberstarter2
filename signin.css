@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+.error{
+  display: none;
+}
+.sh{
+  display: block;
+  color: red;
+  font-size: 12px;
+ 
+}
+
+.jiggle{
+  
+  animation: new 0.2s linear ;
+}
+.red{
+  border: 1px solid red;
+}
+@keyframes new{
+  0% {
+    opacity: 1;
+    transform: translate3d(0px, 20%, 0px);
+}
+
+50%{
+  opacity: 1;
+  transform: translate3d(0px, -20%, 0px);
+}
+75%{
+  opacity: 1;
+  transform: translate3d(0px, 20%, 0px);
+}
+
+100% {
+  opacity: 1;
+   transform: translate3d(0px, -20%, 0px);;
+
+}
+}
+
 *{
   margin: 0;
   padding: 0;
