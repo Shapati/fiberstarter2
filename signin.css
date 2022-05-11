@@ -1,45 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
-
-.error{
-  display: none;
-}
-.sh{
-  display: block;
-  color: red;
-  font-size: 12px;
- 
-}
-
-.jiggle{
-  
-  animation: new 0.2s linear ;
-}
-.red{
-  border: 1px solid red;
-}
-@keyframes new{
-  0% {
-    opacity: 1;
-    transform: translate3d(0px, 20%, 0px);
-}
-
-50%{
-  opacity: 1;
-  transform: translate3d(0px, -20%, 0px);
-}
-75%{
-  opacity: 1;
-  transform: translate3d(0px, 20%, 0px);
-}
-
-100% {
-  opacity: 1;
-   transform: translate3d(0px, -20%, 0px);;
-
-}
-}
-
-
 *{
   margin: 0;
   padding: 0;
@@ -49,6 +7,7 @@
 }
 body{
   width: 1440px;
+  
   margin: 0px auto;
   display: grid;
   grid-template-columns: repeat(2,auto);
@@ -58,21 +17,27 @@ body{
   --color: #571CDD;
 }
 .container1{
-  height: 100vh;
+  
   flex: 1;
+  
 
   
   
 }
-.container2{
-  flex: 1;
-  height: 100vh;
-  background: var(--color);
+.container{
+  transform: translateY(160px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.container2{
+  flex: 1;
+  background: var(--color);
+  
+  
 }
 .container2 p{
   text-align: center;
